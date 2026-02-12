@@ -1,0 +1,597 @@
+{
+  "key": "10000005_0",
+  "date": "2026-02-05",
+  "organization": {
+    "key": "0A57"
+  },
+  "origin": {
+    "organization": {
+      "key": "0146"
+    },
+    "locationType": {
+      "organization": {
+        "key": 3048
+      },
+      "key": "CD"
+    },
+    "key": "0A57"
+  },
+  "destination": {
+    "organization": {
+      "key": "0146"
+    },
+    "locationType": {
+      "organization": {
+        "key": 3048
+      },
+      "key": "CD"
+    },
+    "key": "0A57"
+  },
+  "lastStopIsDestination": false,
+  "plannedStart": "2025-10-14T03:00:00Z",
+  "plannedDeparture": "2025-10-14T03:00:00Z",
+  "plannedArrival": "2025-10-14T03:00:00Z",
+  "plannedComplete": "2025-10-14T03:00:00Z",
+  "hasHelper": false,
+  "description": "V12",
+  "stops": [
+    {
+      "key": "STOP_1",
+      "orders": [
+        {
+          "number": "000145589-1010-20251014-0035798922",
+          "lineItems": {
+            "lineItemID": 1,
+            "plannedSize1": 3,
+            "unitPrice": "4.0840000000000003E1",
+            "totalPrice": "1.2253E2",
+            "sku": {
+              "key": 110440,
+              "organization": {
+                "key": "0146"
+              }
+            }
+          },
+          "specialInstructions": "0550114168",
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "E",
+            "description": "Boleto/Duplicata c/Encargos",
+            "enabled": true,
+            "organization": {
+              "key": 3048
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "Y700",
+            "description": "Fatura Distr Direta",
+            "organization": {
+              "key": 3048
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        },
+        {
+          "number": "000145590-1010-20251014-0035798923",
+          "lineItems": {
+            "lineItemID": 1,
+            "plannedSize1": 2,
+            "unitPrice": "4.0850000000000001E1",
+            "totalPrice": "8.1689999999999998E1",
+            "sku": {
+              "key": 110440,
+              "organization": {
+                "key": "0146"
+              }
+            }
+          },
+          "specialInstructions": "0550114249",
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "E",
+            "description": "Boleto/Duplicata c/Encargos",
+            "enabled": true,
+            "organization": {
+              "key": 3048
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "Y700",
+            "description": "Fatura Distr Direta",
+            "organization": {
+              "key": 3048
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        },
+        {
+          "number": "000145591-1010-20251014-0035798924",
+          "lineItems": {
+            "lineItemID": 1,
+            "plannedSize1": 2,
+            "unitPrice": "4.0850000000000001E1",
+            "totalPrice": "8.1689999999999998E1",
+            "sku": {
+              "key": 110440,
+              "organization": {
+                "key": "0146"
+              }
+            }
+          },
+          "specialInstructions": "0550114556",
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "E",
+            "description": "Boleto/Duplicata c/Encargos",
+            "enabled": true,
+            "organization": {
+              "key": 3048
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "Y700",
+            "description": "Fatura Distr Direta",
+            "organization": {
+              "key": 3048
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        },
+        {
+          "number": "000145592-1010-20251014-0035798925",
+          "lineItems": {
+            "lineItemID": 1,
+            "plannedSize1": 1,
+            "unitPrice": "4.0840000000000003E1",
+            "totalPrice": "4.0840000000000003E1",
+            "sku": {
+              "key": 110440,
+              "organization": {
+                "key": "0146"
+              }
+            }
+          },
+          "specialInstructions": "0550114557",
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "E",
+            "description": "Boleto/Duplicata c/Encargos",
+            "enabled": true,
+            "organization": {
+              "key": 3048
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "Y700",
+            "description": "Fatura Distr Direta",
+            "organization": {
+              "key": 3048
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        },
+        {
+          "number": "000145593-1010-20251014-0035798926",
+          "lineItems": {
+            "lineItemID": 1,
+            "plannedSize1": 2,
+            "unitPrice": "4.0850000000000001E1",
+            "totalPrice": "8.1689999999999998E1",
+            "sku": {
+              "key": 110440,
+              "organization": {
+                "key": "0146"
+              }
+            }
+          },
+          "specialInstructions": "0550114580",
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "E",
+            "description": "Boleto/Duplicata c/Encargos",
+            "enabled": true,
+            "organization": {
+              "key": 3048
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "Y700",
+            "description": "Fatura Distr Direta",
+            "organization": {
+              "key": 3048
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        }
+      ],
+      "location": {
+        "organization": {
+          "key": "0146"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3048
+          },
+          "key": "RUTA"
+        },
+        "key": 500114493
+      },
+      "baseLineSequenceNum": 1,
+      "plannedSequenceNum": 1,
+      "stopType": {
+        "organization": {
+          "key": 3048
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-10-14T03:00:00Z",
+      "plannedDeparture": "2025-10-14T03:00:00Z"
+    },
+    {
+      "key": "STOP_2",
+      "orders": [
+        {
+          "number": "000145598-1010-20251014-0035798931",
+          "lineItems": {
+            "lineItemID": 1,
+            "plannedSize1": 2,
+            "unitPrice": "5.7479999999999997E1",
+            "totalPrice": "1.1495E2",
+            "sku": {
+              "key": 112666,
+              "organization": {
+                "key": "0146"
+              }
+            }
+          },
+          "specialInstructions": "0550113818",
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "A",
+            "description": "Boleto Registrado + QRCode PIX",
+            "enabled": true,
+            "organization": {
+              "key": 3048
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "Y700",
+            "description": "Fatura Distr Direta",
+            "organization": {
+              "key": 3048
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        },
+        {
+          "number": "000145599-1010-20251014-0035798932",
+          "lineItems": {
+            "lineItemID": 1,
+            "plannedSize1": 2,
+            "unitPrice": "8.5849999999999994E1",
+            "totalPrice": "1.7169999999999999E2",
+            "sku": {
+              "key": 110584,
+              "organization": {
+                "key": "0146"
+              }
+            }
+          },
+          "specialInstructions": "0550114029",
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "A",
+            "description": "Boleto Registrado + QRCode PIX",
+            "enabled": true,
+            "organization": {
+              "key": 3048
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "Y700",
+            "description": "Fatura Distr Direta",
+            "organization": {
+              "key": 3048
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        },
+        {
+          "number": "000145600-1010-20251014-0035798933",
+          "lineItems": {
+            "lineItemID": 1,
+            "plannedSize1": 1,
+            "unitPrice": "5.7479999999999997E1",
+            "totalPrice": "5.7479999999999997E1",
+            "sku": {
+              "key": 112666,
+              "organization": {
+                "key": "0146"
+              }
+            }
+          },
+          "specialInstructions": "0550114169",
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "A",
+            "description": "Boleto Registrado + QRCode PIX",
+            "enabled": true,
+            "organization": {
+              "key": 3048
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "Y700",
+            "description": "Fatura Distr Direta",
+            "organization": {
+              "key": 3048
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        },
+        {
+          "number": "000145601-1010-20251014-0035798934",
+          "lineItems": {
+            "lineItemID": 1,
+            "plannedSize1": 1,
+            "unitPrice": "8.5849999999999994E1",
+            "totalPrice": "8.5849999999999994E1",
+            "sku": {
+              "key": 110584,
+              "organization": {
+                "key": "0146"
+              }
+            }
+          },
+          "specialInstructions": "0550114365",
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "A",
+            "description": "Boleto Registrado + QRCode PIX",
+            "enabled": true,
+            "organization": {
+              "key": 3048
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "Y700",
+            "description": "Fatura Distr Direta",
+            "organization": {
+              "key": 3048
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        },
+        {
+          "number": "000145602-1010-20251014-0035798935",
+          "lineItems": {
+            "lineItemID": 1,
+            "plannedSize1": 3,
+            "unitPrice": "8.5849999999999994E1",
+            "totalPrice": "2.5754000000000002E2",
+            "sku": {
+              "key": 110584,
+              "organization": {
+                "key": "0146"
+              }
+            }
+          },
+          "specialInstructions": "0550114590",
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "A",
+            "description": "Boleto Registrado + QRCode PIX",
+            "enabled": true,
+            "organization": {
+              "key": 3048
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "Y700",
+            "description": "Fatura Distr Direta",
+            "organization": {
+              "key": 3048
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        }
+      ],
+      "location": {
+        "organization": {
+          "key": "0146"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3048
+          },
+          "key": "RUTA"
+        },
+        "key": 500217858
+      },
+      "baseLineSequenceNum": 2,
+      "plannedSequenceNum": 2,
+      "stopType": {
+        "organization": {
+          "key": 3048
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-10-14T03:00:00Z",
+      "plannedDeparture": "2025-10-14T03:00:00Z"
+    },
+    {
+      "key": "STOP_3",
+      "orders": [
+        {
+          "number": "000145605-1010-20251014-0035798942",
+          "lineItems": [
+            {
+              "lineItemID": 1,
+              "plannedSize3": 84,
+              "unitPrice": "2.5E0",
+              "totalPrice": "2.1E2",
+              "sku": {
+                "key": 6446,
+                "organization": {
+                  "key": "0146"
+                }
+              }
+            },
+            {
+              "lineItemID": 2,
+              "plannedSize3": 7,
+              "unitPrice": "2.4E1",
+              "totalPrice": "1.68E2",
+              "sku": {
+                "key": 6535,
+                "organization": {
+                  "key": "0146"
+                }
+              }
+            }
+          ],
+          "specialInstructions": "0550109689",
+          "hasPicture": false,
+          "paymentMethod": {
+            "enabled": true,
+            "organization": {
+              "key": 3048
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "Y737",
+            "description": "ftRem Vas/Emb",
+            "organization": {
+              "key": 3048
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        },
+        {
+          "number": "000145603-1010-20251014-0035798936",
+          "lineItems": {
+            "lineItemID": 1,
+            "plannedSize1": 1,
+            "unitPrice": "8.1870000000000005E1",
+            "totalPrice": "8.1870000000000005E1",
+            "sku": {
+              "key": 110584,
+              "organization": {
+                "key": "0146"
+              }
+            }
+          },
+          "specialInstructions": "0550113819",
+          "hasPicture": false,
+          "paymentMethod": {
+            "enabled": true,
+            "organization": {
+              "key": 3048
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "Y720",
+            "description": "ftCaixa Técnica",
+            "organization": {
+              "key": 3048
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        }
+      ],
+      "location": {
+        "organization": {
+          "key": "0146"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3048
+          },
+          "key": "RUTA"
+        },
+        "key": 500816898
+      },
+      "baseLineSequenceNum": 3,
+      "plannedSequenceNum": 3,
+      "stopType": {
+        "organization": {
+          "key": 3048
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-10-14T03:00:00Z",
+      "plannedDeparture": "2025-10-14T03:00:00Z"
+    }
+  ],
+  "hasPicture": false,
+  "equipmentAssignments": {
+    "principal": true,
+    "equipment": {
+      "key": "T073",
+      "organization": {
+        "key": 3048
+      }
+    }
+  }
+}

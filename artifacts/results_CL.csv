@@ -1,0 +1,2 @@
+country,base_url,transport,turn,key,date,status_code,success_flag
+CL,https://6ary7k823f-vpce-08f3fe9af82db4d33.execute-api.us-east-1.amazonaws.com/develop/sap-po/checkouts,9000000,1,9000000_1,2026-02-01,200,

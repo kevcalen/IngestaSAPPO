@@ -1,0 +1,715 @@
+{
+  "key": "10000000_5",
+  "date": "2026-02-05",
+  "organization": {
+    "key": "0944"
+  },
+  "origin": {
+    "organization": {
+      "key": "0143"
+    },
+    "locationType": {
+      "organization": {
+        "key": 3043
+      },
+      "key": "CD"
+    },
+    "key": "0938"
+  },
+  "destination": {
+    "organization": {
+      "key": "0143"
+    },
+    "locationType": {
+      "organization": {
+        "key": 3043
+      },
+      "key": "CD"
+    },
+    "key": "0938"
+  },
+  "lastStopIsDestination": false,
+  "plannedStart": "2025-08-06T13:00:00Z",
+  "plannedDeparture": "2025-08-06T13:00:00Z",
+  "plannedArrival": "2025-08-06T18:00:00Z",
+  "plannedComplete": "2025-08-06T18:00:00Z",
+  "hasHelper": false,
+  "description": "N24",
+  "stops": [
+    {
+      "key": "STOP_1",
+      "orders": {
+        "number": "08226822",
+        "lineItems": {
+          "lineItemID": 1,
+          "plannedSize2": 10,
+          "unitPrice": 4433,
+          "totalPrice": 44334,
+          "sku": {
+            "key": 120437,
+            "organization": {
+              "key": "0143"
+            }
+          }
+        },
+        "specialInstructions": "0304133231",
+        "hasPicture": false,
+        "paymentMethod": {
+          "key": "CHEQUE",
+          "description": "Cheque 15 Días",
+          "enabled": true,
+          "organization": {
+            "key": 3043
+          },
+          "askPaymentDocument": 2
+        },
+        "allowShort": true,
+        "orderClass": {
+          "key": "Y100",
+          "description": "AND-Factura",
+          "organization": {
+            "key": 3043
+          },
+          "enabled": true,
+          "pickup": false,
+          "allowNewOrder": false,
+          "allDamaged": false
+        }
+      },
+      "location": {
+        "organization": {
+          "key": "0143"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3043
+          },
+          "key": "RUTA"
+        },
+        "key": 500266307,
+        "deliveryInstructions": "Banco Santander (Chile) | 64937901"
+      },
+      "baseLineSequenceNum": 1,
+      "plannedSequenceNum": 1,
+      "stopType": {
+        "organization": {
+          "key": 3043
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-08-06T13:00:00Z",
+      "plannedDeparture": "2025-08-06T13:00:00Z"
+    },
+    {
+      "key": "STOP_2",
+      "orders": {
+        "number": "08226823",
+        "lineItems": {
+          "lineItemID": 1,
+          "plannedSize2": 10,
+          "unitPrice": 4433,
+          "totalPrice": 44334,
+          "sku": {
+            "key": 120437,
+            "organization": {
+              "key": "0143"
+            }
+          }
+        },
+        "specialInstructions": "0304133232",
+        "hasPicture": false,
+        "paymentMethod": {
+          "key": "E",
+          "description": "Efectivo / Pago Electrónico",
+          "enabled": true,
+          "organization": {
+            "key": 3043
+          },
+          "askPaymentDocument": 0
+        },
+        "allowShort": true,
+        "orderClass": {
+          "key": "Y100",
+          "description": "AND-Factura",
+          "organization": {
+            "key": 3043
+          },
+          "enabled": true,
+          "pickup": false,
+          "allowNewOrder": false,
+          "allDamaged": false
+        }
+      },
+      "location": {
+        "organization": {
+          "key": "0143"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3043
+          },
+          "key": "RUTA"
+        },
+        "key": 500266994
+      },
+      "baseLineSequenceNum": 2,
+      "plannedSequenceNum": 2,
+      "stopType": {
+        "organization": {
+          "key": 3043
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-08-06T13:00:00Z",
+      "plannedDeparture": "2025-08-06T13:00:00Z"
+    },
+    {
+      "key": "STOP_3",
+      "orders": {
+        "number": "08226818",
+        "lineItems": {
+          "lineItemID": 1,
+          "plannedSize2": 10,
+          "unitPrice": 4430,
+          "totalPrice": 44300,
+          "sku": {
+            "key": 120438,
+            "organization": {
+              "key": "0143"
+            }
+          }
+        },
+        "specialInstructions": "0304132914",
+        "hasPicture": false,
+        "paymentMethod": {
+          "key": "E",
+          "description": "Efectivo / Pago Electrónico",
+          "enabled": true,
+          "organization": {
+            "key": 3043
+          },
+          "askPaymentDocument": 0
+        },
+        "allowShort": true,
+        "orderClass": {
+          "key": "Y100",
+          "description": "AND-Factura",
+          "organization": {
+            "key": 3043
+          },
+          "enabled": true,
+          "pickup": false,
+          "allowNewOrder": false,
+          "allDamaged": false
+        }
+      },
+      "location": {
+        "organization": {
+          "key": "0143"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3043
+          },
+          "key": "RUTA"
+        },
+        "key": 500272584
+      },
+      "baseLineSequenceNum": 3,
+      "plannedSequenceNum": 3,
+      "stopType": {
+        "organization": {
+          "key": 3043
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-08-06T13:00:00Z",
+      "plannedDeparture": "2025-08-06T13:00:00Z"
+    },
+    {
+      "key": "STOP_4",
+      "orders": {
+        "number": "08226817",
+        "lineItems": {
+          "lineItemID": 1,
+          "plannedSize2": 10,
+          "unitPrice": 4433,
+          "totalPrice": 44334,
+          "sku": {
+            "key": 120437,
+            "organization": {
+              "key": "0143"
+            }
+          }
+        },
+        "specialInstructions": "0304132913",
+        "hasPicture": false,
+        "paymentMethod": {
+          "key": "N",
+          "description": "No Cheque",
+          "enabled": true,
+          "organization": {
+            "key": 3043
+          },
+          "askPaymentDocument": 0
+        },
+        "allowShort": true,
+        "orderClass": {
+          "key": "Y100",
+          "description": "AND-Factura",
+          "organization": {
+            "key": 3043
+          },
+          "enabled": true,
+          "pickup": false,
+          "allowNewOrder": false,
+          "allDamaged": false
+        }
+      },
+      "location": {
+        "organization": {
+          "key": "0143"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3043
+          },
+          "key": "RUTA"
+        },
+        "key": 500273512
+      },
+      "baseLineSequenceNum": 4,
+      "plannedSequenceNum": 4,
+      "stopType": {
+        "organization": {
+          "key": 3043
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-08-06T13:00:00Z",
+      "plannedDeparture": "2025-08-06T13:00:00Z"
+    },
+    {
+      "key": "STOP_5",
+      "orders": {
+        "number": "08226821",
+        "lineItems": {
+          "lineItemID": 1,
+          "plannedSize2": 10,
+          "unitPrice": 4433,
+          "totalPrice": 44334,
+          "sku": {
+            "key": 120437,
+            "organization": {
+              "key": "0143"
+            }
+          }
+        },
+        "specialInstructions": "0304133213",
+        "hasPicture": false,
+        "paymentMethod": {
+          "key": "CHEQUE",
+          "description": "Cheque 30 días",
+          "enabled": true,
+          "organization": {
+            "key": 3043
+          },
+          "askPaymentDocument": 2
+        },
+        "allowShort": true,
+        "orderClass": {
+          "key": "Y100",
+          "description": "AND-Factura",
+          "organization": {
+            "key": 3043
+          },
+          "enabled": true,
+          "pickup": false,
+          "allowNewOrder": false,
+          "allDamaged": false
+        }
+      },
+      "location": {
+        "organization": {
+          "key": "0143"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3043
+          },
+          "key": "RUTA"
+        },
+        "key": 500275165,
+        "deliveryInstructions": "Banco del Estado de Chile | 26900002253"
+      },
+      "baseLineSequenceNum": 5,
+      "plannedSequenceNum": 5,
+      "stopType": {
+        "organization": {
+          "key": 3043
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-08-06T13:00:00Z",
+      "plannedDeparture": "2025-08-06T13:00:00Z"
+    },
+    {
+      "key": "STOP_6",
+      "orders": {
+        "number": "08226820",
+        "lineItems": {
+          "lineItemID": 1,
+          "plannedSize2": 10,
+          "unitPrice": 4433,
+          "totalPrice": 44334,
+          "sku": {
+            "key": 120437,
+            "organization": {
+              "key": "0143"
+            }
+          }
+        },
+        "specialInstructions": "0304133194",
+        "hasPicture": false,
+        "paymentMethod": {
+          "key": "E",
+          "description": "Efectivo / Pago Electrónico",
+          "enabled": true,
+          "organization": {
+            "key": 3043
+          },
+          "askPaymentDocument": 0
+        },
+        "allowShort": true,
+        "orderClass": {
+          "key": "Y100",
+          "description": "AND-Factura",
+          "organization": {
+            "key": 3043
+          },
+          "enabled": true,
+          "pickup": false,
+          "allowNewOrder": false,
+          "allDamaged": false
+        }
+      },
+      "location": {
+        "organization": {
+          "key": "0143"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3043
+          },
+          "key": "RUTA"
+        },
+        "key": 500276894
+      },
+      "baseLineSequenceNum": 6,
+      "plannedSequenceNum": 6,
+      "stopType": {
+        "organization": {
+          "key": 3043
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-08-06T13:00:00Z",
+      "plannedDeparture": "2025-08-06T13:00:00Z"
+    },
+    {
+      "key": "STOP_7",
+      "orders": {
+        "number": "08226815",
+        "lineItems": {
+          "lineItemID": 1,
+          "plannedSize2": 10,
+          "unitPrice": 4430,
+          "totalPrice": 44300,
+          "sku": {
+            "key": 120438,
+            "organization": {
+              "key": "0143"
+            }
+          }
+        },
+        "specialInstructions": "0304132512",
+        "hasPicture": false,
+        "paymentMethod": {
+          "key": "CHEQUE",
+          "description": "Cheque 07 Días",
+          "enabled": true,
+          "organization": {
+            "key": 3043
+          },
+          "askPaymentDocument": 2
+        },
+        "allowShort": true,
+        "orderClass": {
+          "key": "Y100",
+          "description": "AND-Factura",
+          "organization": {
+            "key": 3043
+          },
+          "enabled": true,
+          "pickup": false,
+          "allowNewOrder": false,
+          "allDamaged": false
+        }
+      },
+      "location": {
+        "organization": {
+          "key": "0143"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3043
+          },
+          "key": "RUTA"
+        },
+        "key": 500278472,
+        "deliveryInstructions": "Banco de Chile | 946145009"
+      },
+      "baseLineSequenceNum": 7,
+      "plannedSequenceNum": 7,
+      "stopType": {
+        "organization": {
+          "key": 3043
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-08-06T13:00:00Z",
+      "plannedDeparture": "2025-08-06T13:00:00Z"
+    },
+    {
+      "key": "STOP_8",
+      "orders": {
+        "number": "08226816",
+        "lineItems": {
+          "lineItemID": 1,
+          "plannedSize2": 10,
+          "unitPrice": 4433,
+          "totalPrice": 44334,
+          "sku": {
+            "key": 120437,
+            "organization": {
+              "key": "0143"
+            }
+          }
+        },
+        "specialInstructions": "0304132513",
+        "hasPicture": false,
+        "paymentMethod": {
+          "key": "CHEQUE",
+          "description": "Cheque 15 Días",
+          "enabled": true,
+          "organization": {
+            "key": 3043
+          },
+          "askPaymentDocument": 2
+        },
+        "allowShort": true,
+        "orderClass": {
+          "key": "Y100",
+          "description": "AND-Factura",
+          "organization": {
+            "key": 3043
+          },
+          "enabled": true,
+          "pickup": false,
+          "allowNewOrder": false,
+          "allDamaged": false
+        }
+      },
+      "location": {
+        "organization": {
+          "key": "0143"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3043
+          },
+          "key": "RUTA"
+        },
+        "key": 500283561,
+        "deliveryInstructions": "Banco Santander (Chile) | 63210811"
+      },
+      "baseLineSequenceNum": 8,
+      "plannedSequenceNum": 8,
+      "stopType": {
+        "organization": {
+          "key": 3043
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-08-06T13:00:00Z",
+      "plannedDeparture": "2025-08-06T13:00:00Z"
+    },
+    {
+      "key": "STOP_9",
+      "orders": {
+        "number": "08226819",
+        "lineItems": {
+          "lineItemID": 1,
+          "plannedSize2": 10,
+          "unitPrice": 4213,
+          "totalPrice": 42133,
+          "sku": {
+            "key": 120437,
+            "organization": {
+              "key": "0143"
+            }
+          }
+        },
+        "specialInstructions": "0304132915",
+        "hasPicture": false,
+        "paymentMethod": {
+          "key": "CHEQUE",
+          "description": "Cheque 20 días",
+          "enabled": true,
+          "organization": {
+            "key": 3043
+          },
+          "askPaymentDocument": 2
+        },
+        "allowShort": true,
+        "orderClass": {
+          "key": "Y100",
+          "description": "AND-Factura",
+          "organization": {
+            "key": 3043
+          },
+          "enabled": true,
+          "pickup": false,
+          "allowNewOrder": false,
+          "allDamaged": false
+        }
+      },
+      "location": {
+        "organization": {
+          "key": "0143"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3043
+          },
+          "key": "RUTA"
+        },
+        "key": 500294277,
+        "deliveryInstructions": "Banco de Chile | 1850671301"
+      },
+      "baseLineSequenceNum": 9,
+      "plannedSequenceNum": 9,
+      "stopType": {
+        "organization": {
+          "key": 3043
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-08-06T13:00:00Z",
+      "plannedDeparture": "2025-08-06T13:00:00Z"
+    },
+    {
+      "key": "STOP_10",
+      "orders": {
+        "number": "08226824",
+        "lineItems": {
+          "lineItemID": 1,
+          "plannedSize2": 10,
+          "unitPrice": 4433,
+          "totalPrice": 44334,
+          "sku": {
+            "key": 120437,
+            "organization": {
+              "key": "0143"
+            }
+          }
+        },
+        "specialInstructions": "0304133251",
+        "hasPicture": false,
+        "paymentMethod": {
+          "key": "CHEQUE",
+          "description": "Cheque 20 días",
+          "enabled": true,
+          "organization": {
+            "key": 3043
+          },
+          "askPaymentDocument": 2
+        },
+        "allowShort": true,
+        "orderClass": {
+          "key": "Y100",
+          "description": "AND-Factura",
+          "organization": {
+            "key": 3043
+          },
+          "enabled": true,
+          "pickup": false,
+          "allowNewOrder": false,
+          "allDamaged": false
+        }
+      },
+      "location": {
+        "organization": {
+          "key": "0143"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3043
+          },
+          "key": "RUTA"
+        },
+        "key": 500294630,
+        "deliveryInstructions": "Banco de Chile | 1950707407"
+      },
+      "baseLineSequenceNum": 10,
+      "plannedSequenceNum": 10,
+      "stopType": {
+        "organization": {
+          "key": 3043
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-08-06T13:00:00Z",
+      "plannedDeparture": "2025-08-06T13:00:00Z"
+    }
+  ],
+  "hasPicture": false,
+  "additionalMaterials": [
+    {
+      "sku": {
+        "key": 28001,
+        "organization": {
+          "key": "0143"
+        }
+      },
+      "quantity": 5
+    },
+    {
+      "sku": {
+        "key": 120111,
+        "organization": {
+          "key": "0143"
+        }
+      },
+      "quantity": 1
+    },
+    {
+      "sku": {
+        "key": 120644,
+        "organization": {
+          "key": "0143"
+        }
+      },
+      "quantity": 1
+    }
+  ],
+  "equipmentAssignments": {
+    "principal": true,
+    "equipment": {
+      "key": "5002",
+      "organization": {
+        "key": "3043"
+      }
+    }
+  }
+}

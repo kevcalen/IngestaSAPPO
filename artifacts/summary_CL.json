@@ -1,0 +1,9 @@
+{
+  "total": 1,
+  "ok_200": 1,
+  "failed": 0,
+  "status_distribution": {
+    "200": 1
+  },
+  "sample_errors": []
+}

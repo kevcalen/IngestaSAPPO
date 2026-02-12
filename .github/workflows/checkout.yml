@@ -1,0 +1,110 @@
+name: Mi Ruta - Massive Checkout (Develop)
+
+on:
+  workflow_dispatch:
+    inputs:
+      country:
+        description: "CL | AR | BR | PY | ALL"
+        required: true
+        default: "CL"
+      volume:
+        description: "How many checkouts to ingest"
+        required: true
+        default: "10"
+      turn:
+        description: "Turn/Vuelta (suffix in key: _1, _2, _3...)"
+        required: true
+        default: "1"
+      start_transport:
+        description: "Starting transport number (will increment)"
+        required: true
+        default: "1000001"
+      date:
+        description: "YYYY-MM-DD (optional)"
+        required: false
+        default: ""
+      workers:
+        description: "Concurrency"
+        required: true
+        default: "15"
+
+jobs:
+  run-single:
+    if: ${{ inputs.country != 'ALL' }}
+    runs-on: ubuntu-latest
+    env:
+      MI_RUTA_COUNTRY: ${{ inputs.country }}
+      MI_RUTA_VOLUME: ${{ inputs.volume }}
+      MI_RUTA_TURN: ${{ inputs.turn }}
+      MI_RUTA_START_TRANSPORT: ${{ inputs.start_transport }}
+      MI_RUTA_DATE: ${{ inputs.date }}
+      MI_RUTA_WORKERS: ${{ inputs.workers }}
+
+      # Endpoints (optional for CL/AR/BR because defaults exist in code)
+      MI_RUTA_BASE_URL_CL: ${{ secrets.MI_RUTA_BASE_URL_CL }}
+      MI_RUTA_BASE_URL_AR: ${{ secrets.MI_RUTA_BASE_URL_AR }}
+      MI_RUTA_BASE_URL_BR: ${{ secrets.MI_RUTA_BASE_URL_BR }}
+      MI_RUTA_BASE_URL_PY: ${{ secrets.MI_RUTA_BASE_URL_PY }}
+
+      # API Keys (required)
+      MI_RUTA_API_KEY_CL: ${{ secrets.MI_RUTA_API_KEY_CL }}
+      MI_RUTA_API_KEY_AR: ${{ secrets.MI_RUTA_API_KEY_AR }}
+      MI_RUTA_API_KEY_BR: ${{ secrets.MI_RUTA_API_KEY_BR }}
+      MI_RUTA_API_KEY_PY: ${{ secrets.MI_RUTA_API_KEY_PY }}
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run tests
+        run: pytest -q --disable-warnings --maxfail=1
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: artifacts-${{ inputs.country }}
+          path: artifacts/
+
+  run-all:
+    if: ${{ inputs.country == 'ALL' }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        country: [CL, AR, BR, PY]
+    env:
+      MI_RUTA_COUNTRY: ${{ matrix.country }}
+      MI_RUTA_VOLUME: ${{ inputs.volume }}
+      MI_RUTA_TURN: ${{ inputs.turn }}
+      MI_RUTA_START_TRANSPORT: ${{ inputs.start_transport }}
+      MI_RUTA_DATE: ${{ inputs.date }}
+      MI_RUTA_WORKERS: ${{ inputs.workers }}
+
+      MI_RUTA_BASE_URL_CL: ${{ secrets.MI_RUTA_BASE_URL_CL }}
+      MI_RUTA_BASE_URL_AR: ${{ secrets.MI_RUTA_BASE_URL_AR }}
+      MI_RUTA_BASE_URL_BR: ${{ secrets.MI_RUTA_BASE_URL_BR }}
+      MI_RUTA_BASE_URL_PY: ${{ secrets.MI_RUTA_BASE_URL_PY }}
+
+      MI_RUTA_API_KEY_CL: ${{ secrets.MI_RUTA_API_KEY_CL }}
+      MI_RUTA_API_KEY_AR: ${{ secrets.MI_RUTA_API_KEY_AR }}
+      MI_RUTA_API_KEY_BR: ${{ secrets.MI_RUTA_API_KEY_BR }}
+      MI_RUTA_API_KEY_PY: ${{ secrets.MI_RUTA_API_KEY_PY }}
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run tests (matrix)
+        run: pytest -q --disable-warnings --maxfail=1
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: artifacts-${{ matrix.country }}
+          path: artifacts/

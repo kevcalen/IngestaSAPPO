@@ -1,0 +1,878 @@
+{
+  "key": "1000001_1",
+  "date": "2025-10-28",
+  "organization": {
+    "key": "0960"
+  },
+  "origin": {
+    "organization": {
+      "key": "0144"
+    },
+    "locationType": {
+      "organization": {
+        "key": 3046
+      },
+      "key": "CD"
+    },
+    "key": "0960"
+  },
+  "destination": {
+    "organization": {
+      "key": "0144"
+    },
+    "locationType": {
+      "organization": {
+        "key": 3046
+      },
+      "key": "CD"
+    },
+    "key": "0960"
+  },
+  "lastStopIsDestination": false,
+  "plannedStart": "2025-10-15T03:00:00Z",
+  "plannedDeparture": "2025-10-15T03:00:00Z",
+  "plannedArrival": "2025-10-15T03:00:00Z",
+  "plannedComplete": "2025-10-15T03:00:00Z",
+  "hasHelper": false,
+  "description": 817,
+  "stops": [
+    {
+      "key": "STOP_1",
+      "orders": [
+        {
+          "number": "9003A00004650",
+          "lineItems": [
+            {
+              "lineItemID": 1,
+              "plannedPickupSize2": 10,
+              "unitPrice": -15074.71,
+              "totalPrice": -150747.08,
+              "sku": {
+                "key": 100116,
+                "organization": {
+                  "key": "0144"
+                }
+              }
+            },
+            {
+              "lineItemID": 2,
+              "plannedPickupSize2": 5,
+              "unitPrice": -226.45,
+              "totalPrice": -1132.24,
+              "sku": {
+                "key": 102376,
+                "organization": {
+                  "key": "0144"
+                }
+              }
+            }
+          ],
+          "specialInstructions": 2900022314,
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "R",
+            "description": "Crédito",
+            "enabled": true,
+            "organization": {
+              "key": 3046
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": false,
+          "orderClass": {
+            "key": "YA81",
+            "description": "AR-Nota de Crédito",
+            "organization": {
+              "key": 3046
+            },
+            "enabled": true,
+            "pickup": true,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        },
+        {
+          "number": "9003A00001662",
+          "lineItems": [
+            {
+              "lineItemID": 1,
+              "plannedSize3": 12,
+              "unitPrice": "13659.00",
+              "totalPrice": "163908.00",
+              "sku": {
+                "key": 7004,
+                "organization": {
+                  "key": "0144"
+                }
+              }
+            },
+            {
+              "lineItemID": 2,
+              "plannedSize1": 12,
+              "unitPrice": "6120.00",
+              "totalPrice": "73440.00",
+              "sku": {
+                "key": 7127,
+                "organization": {
+                  "key": "0144"
+                }
+              }
+            }
+          ],
+          "specialInstructions": 3100066556,
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "R",
+            "description": "Crédito",
+            "enabled": true,
+            "organization": {
+              "key": 3046
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "YA71",
+            "description": "AR-ND Envases",
+            "organization": {
+              "key": 3046
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        },
+        {
+          "number": "9003A00010005",
+          "lineItems": [
+            {
+              "lineItemID": 1,
+              "plannedSize1": 5,
+              "unitPrice": 679.06,
+              "totalPrice": 3395.31,
+              "sku": {
+                "key": 100118,
+                "organization": {
+                  "key": "0144"
+                }
+              }
+            },
+            {
+              "lineItemID": 2,
+              "plannedSize1": 7,
+              "unitPrice": 679.45,
+              "totalPrice": 4756.14,
+              "sku": {
+                "key": 102018,
+                "organization": {
+                  "key": "0144"
+                }
+              }
+            }
+          ],
+          "specialInstructions": 3100067481,
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "R",
+            "description": "Crédito",
+            "enabled": true,
+            "organization": {
+              "key": 3046
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "YA10",
+            "description": "AR-Factura de Ventas",
+            "organization": {
+              "key": 3046
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        }
+      ],
+      "location": {
+        "organization": {
+          "key": "0144"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3046
+          },
+          "key": "RUTA"
+        },
+        "key": 500000003
+      },
+      "baseLineSequenceNum": 1,
+      "plannedSequenceNum": 1,
+      "stopType": {
+        "organization": {
+          "key": 3046
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-10-15T03:00:00Z",
+      "plannedDeparture": "2025-10-15T03:00:00Z"
+    },
+    {
+      "key": "STOP_2",
+      "orders": {
+        "number": "9003B00005528",
+        "lineItems": {
+          "lineItemID": 1,
+          "plannedSize1": 10,
+          "unitPrice": 3687.27,
+          "totalPrice": 36872.69,
+          "sku": {
+            "key": 100118,
+            "organization": {
+              "key": "0144"
+            }
+          }
+        },
+        "specialInstructions": 3100066632,
+        "hasPicture": false,
+        "paymentMethod": {
+          "key": "R",
+          "description": "Crédito",
+          "enabled": true,
+          "organization": {
+            "key": 3046
+          },
+          "askPaymentDocument": 0
+        },
+        "allowShort": true,
+        "orderClass": {
+          "key": "YA10",
+          "description": "AR-Factura de Ventas",
+          "organization": {
+            "key": 3046
+          },
+          "enabled": true,
+          "pickup": false,
+          "allowNewOrder": false,
+          "allDamaged": false
+        }
+      },
+      "location": {
+        "organization": {
+          "key": "0144"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3046
+          },
+          "key": "RUTA"
+        },
+        "key": 500000005
+      },
+      "baseLineSequenceNum": 2,
+      "plannedSequenceNum": 2,
+      "stopType": {
+        "organization": {
+          "key": 3046
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-10-15T03:00:00Z",
+      "plannedDeparture": "2025-10-15T03:00:00Z"
+    },
+    {
+      "key": "STOP_3",
+      "orders": {
+        "number": "9003B00005530",
+        "lineItems": [
+          {
+            "lineItemID": 1,
+            "plannedSize1": 5,
+            "unitPrice": 4463.38,
+            "totalPrice": 22316.88,
+            "sku": {
+              "key": 100118,
+              "organization": {
+                "key": "0144"
+              }
+            }
+          },
+          {
+            "lineItemID": 2,
+            "plannedSize1": 7,
+            "unitPrice": 8380.38,
+            "totalPrice": 58662.65,
+            "sku": {
+              "key": 102018,
+              "organization": {
+                "key": "0144"
+              }
+            }
+          }
+        ],
+        "specialInstructions": 3100067500,
+        "hasPicture": false,
+        "paymentMethod": {
+          "key": "E",
+          "description": "Efectivo por caja",
+          "enabled": true,
+          "organization": {
+            "key": 3046
+          },
+          "askPaymentDocument": 0
+        },
+        "allowShort": true,
+        "orderClass": {
+          "key": "YA10",
+          "description": "AR-Factura de Ventas",
+          "organization": {
+            "key": 3046
+          },
+          "enabled": true,
+          "pickup": false,
+          "allowNewOrder": false,
+          "allDamaged": false
+        }
+      },
+      "location": {
+        "organization": {
+          "key": "0144"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3046
+          },
+          "key": "RUTA"
+        },
+        "key": 500000007
+      },
+      "baseLineSequenceNum": 3,
+      "plannedSequenceNum": 3,
+      "stopType": {
+        "organization": {
+          "key": 3046
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-10-15T03:00:00Z",
+      "plannedDeparture": "2025-10-15T03:00:00Z"
+    },
+    {
+      "key": "STOP_4",
+      "orders": {
+        "number": "9003B00005529",
+        "lineItems": {
+          "lineItemID": 1,
+          "plannedSize1": 10,
+          "unitPrice": 5022.75,
+          "totalPrice": 50227.52,
+          "sku": {
+            "key": 100118,
+            "organization": {
+              "key": "0144"
+            }
+          }
+        },
+        "specialInstructions": 3100066849,
+        "hasPicture": false,
+        "paymentMethod": {
+          "key": "E",
+          "description": "Efectivo por caja",
+          "enabled": true,
+          "organization": {
+            "key": 3046
+          },
+          "askPaymentDocument": 0
+        },
+        "allowShort": true,
+        "orderClass": {
+          "key": "YA10",
+          "description": "AR-Factura de Ventas",
+          "organization": {
+            "key": 3046
+          },
+          "enabled": true,
+          "pickup": false,
+          "allowNewOrder": false,
+          "allDamaged": false
+        }
+      },
+      "location": {
+        "organization": {
+          "key": "0144"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3046
+          },
+          "key": "RUTA"
+        },
+        "key": 500000011
+      },
+      "baseLineSequenceNum": 4,
+      "plannedSequenceNum": 4,
+      "stopType": {
+        "organization": {
+          "key": 3046
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-10-15T03:00:00Z",
+      "plannedDeparture": "2025-10-15T03:00:00Z"
+    },
+    {
+      "key": "STOP_5",
+      "orders": {
+        "number": "9003A00010001",
+        "lineItems": {
+          "lineItemID": 1,
+          "plannedSize1": 10,
+          "unitPrice": "5222.60",
+          "totalPrice": 52225.97,
+          "sku": {
+            "key": 100118,
+            "organization": {
+              "key": "0144"
+            }
+          }
+        },
+        "specialInstructions": 3100064717,
+        "hasPicture": false,
+        "paymentMethod": {
+          "key": "R",
+          "description": "Crédito",
+          "enabled": true,
+          "organization": {
+            "key": 3046
+          },
+          "askPaymentDocument": 0
+        },
+        "allowShort": true,
+        "orderClass": {
+          "key": "YA10",
+          "description": "AR-Factura de Ventas",
+          "organization": {
+            "key": 3046
+          },
+          "enabled": true,
+          "pickup": false,
+          "allowNewOrder": false,
+          "allDamaged": false
+        }
+      },
+      "location": {
+        "organization": {
+          "key": "0144"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3046
+          },
+          "key": "RUTA"
+        },
+        "key": 500007899
+      },
+      "baseLineSequenceNum": 5,
+      "plannedSequenceNum": 5,
+      "stopType": {
+        "organization": {
+          "key": 3046
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-10-15T03:00:00Z",
+      "plannedDeparture": "2025-10-15T03:00:00Z"
+    },
+    {
+      "key": "STOP_6",
+      "orders": [
+        {
+          "number": "9003A00004648",
+          "lineItems": [
+            {
+              "lineItemID": 1,
+              "plannedPickupSize2": 2,
+              "unitPrice": -14901.58,
+              "totalPrice": -29803.16,
+              "sku": {
+                "key": 100116,
+                "organization": {
+                  "key": "0144"
+                }
+              }
+            },
+            {
+              "lineItemID": 2,
+              "plannedPickupSize2": 5,
+              "unitPrice": -3667.37,
+              "totalPrice": -18336.83,
+              "sku": {
+                "key": 102376,
+                "organization": {
+                  "key": "0144"
+                }
+              }
+            }
+          ],
+          "specialInstructions": 2900021897,
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "CHEQUE",
+            "description": "Cheque Pago Contado",
+            "enabled": true,
+            "organization": {
+              "key": 3046
+            },
+            "askPaymentDocument": 2
+          },
+          "allowShort": false,
+          "orderClass": {
+            "key": "YA81",
+            "description": "AR-Nota de Crédito",
+            "organization": {
+              "key": 3046
+            },
+            "enabled": true,
+            "pickup": true,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        },
+        {
+          "number": "9003A00010002",
+          "lineItems": {
+            "lineItemID": 1,
+            "plannedSize1": 5,
+            "unitPrice": "13505.80",
+            "totalPrice": 67528.98,
+            "sku": {
+              "key": 102018,
+              "organization": {
+                "key": "0144"
+              }
+            }
+          },
+          "specialInstructions": 3100064749,
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "CHEQUE",
+            "description": "Cheque Pago Contado",
+            "enabled": true,
+            "organization": {
+              "key": 3046
+            },
+            "askPaymentDocument": 2
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "YA10",
+            "description": "AR-Factura de Ventas",
+            "organization": {
+              "key": 3046
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        }
+      ],
+      "location": {
+        "organization": {
+          "key": "0144"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3046
+          },
+          "key": "RUTA"
+        },
+        "key": 500010379,
+        "deliveryInstructions": "BANCO DE GALICIA Y BUENOS AIRES S.A. | 12345"
+      },
+      "baseLineSequenceNum": 6,
+      "plannedSequenceNum": 6,
+      "stopType": {
+        "organization": {
+          "key": 3046
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-10-15T03:00:00Z",
+      "plannedDeparture": "2025-10-15T03:00:00Z"
+    },
+    {
+      "key": "STOP_7",
+      "orders": {
+        "number": "9003A00010003",
+        "lineItems": [
+          {
+            "lineItemID": 1,
+            "plannedSize1": 10,
+            "unitPrice": 3469.43,
+            "totalPrice": "34694.30",
+            "sku": {
+              "key": 100118,
+              "organization": {
+                "key": "0144"
+              }
+            }
+          },
+          {
+            "lineItemID": 2,
+            "plannedSize1": 5,
+            "unitPrice": 3275.23,
+            "totalPrice": 16376.16,
+            "sku": {
+              "key": 102018,
+              "organization": {
+                "key": "0144"
+              }
+            }
+          }
+        ],
+        "specialInstructions": 3100067343,
+        "hasPicture": false,
+        "paymentMethod": {
+          "key": "CHEQUE",
+          "description": "Cheque 07 Días",
+          "enabled": true,
+          "organization": {
+            "key": 3046
+          },
+          "askPaymentDocument": 2
+        },
+        "allowShort": true,
+        "orderClass": {
+          "key": "YA10",
+          "description": "AR-Factura de Ventas",
+          "organization": {
+            "key": 3046
+          },
+          "enabled": true,
+          "pickup": false,
+          "allowNewOrder": false,
+          "allDamaged": false
+        }
+      },
+      "location": {
+        "organization": {
+          "key": "0144"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3046
+          },
+          "key": "RUTA"
+        },
+        "key": 500013293,
+        "deliveryInstructions": "BANCO DE GALICIA Y BUENOS AIRES S.A. | 30709242683"
+      },
+      "baseLineSequenceNum": 7,
+      "plannedSequenceNum": 7,
+      "stopType": {
+        "organization": {
+          "key": 3046
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-10-15T03:00:00Z",
+      "plannedDeparture": "2025-10-15T03:00:00Z"
+    },
+    {
+      "key": "STOP_8",
+      "orders": [
+        {
+          "number": "9003A00004649",
+          "lineItems": [
+            {
+              "lineItemID": 1,
+              "plannedPickupSize2": 10,
+              "unitPrice": -2662.12,
+              "totalPrice": -26621.17,
+              "sku": {
+                "key": 100116,
+                "organization": {
+                  "key": "0144"
+                }
+              }
+            },
+            {
+              "lineItemID": 2,
+              "plannedPickupSize2": 5,
+              "unitPrice": -1054.08,
+              "totalPrice": -5270.39,
+              "sku": {
+                "key": 102376,
+                "organization": {
+                  "key": "0144"
+                }
+              }
+            }
+          ],
+          "specialInstructions": 2900021898,
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "R",
+            "description": "Crédito",
+            "enabled": true,
+            "organization": {
+              "key": 3046
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": false,
+          "orderClass": {
+            "key": "YA81",
+            "description": "AR-Nota de Crédito",
+            "organization": {
+              "key": 3046
+            },
+            "enabled": true,
+            "pickup": true,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        },
+        {
+          "number": "9003A00001663",
+          "lineItems": [
+            {
+              "lineItemID": 1,
+              "plannedSize3": 12,
+              "unitPrice": "13659.00",
+              "totalPrice": "163908.00",
+              "sku": {
+                "key": 7004,
+                "organization": {
+                  "key": "0144"
+                }
+              }
+            },
+            {
+              "lineItemID": 2,
+              "plannedSize1": 12,
+              "unitPrice": "6120.00",
+              "totalPrice": "73440.00",
+              "sku": {
+                "key": 7127,
+                "organization": {
+                  "key": "0144"
+                }
+              }
+            }
+          ],
+          "specialInstructions": 3100066777,
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "R",
+            "description": "Crédito",
+            "enabled": true,
+            "organization": {
+              "key": 3046
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "YA71",
+            "description": "AR-ND Envases",
+            "organization": {
+              "key": 3046
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        },
+        {
+          "number": "9003A00010004",
+          "lineItems": [
+            {
+              "lineItemID": 1,
+              "plannedSize1": 5,
+              "unitPrice": 3358.32,
+              "totalPrice": 16791.58,
+              "sku": {
+                "key": 100118,
+                "organization": {
+                  "key": "0144"
+                }
+              }
+            },
+            {
+              "lineItemID": 2,
+              "plannedSize1": 7,
+              "unitPrice": 3169.35,
+              "totalPrice": 22185.42,
+              "sku": {
+                "key": 102018,
+                "organization": {
+                  "key": "0144"
+                }
+              }
+            }
+          ],
+          "specialInstructions": 3100067353,
+          "hasPicture": false,
+          "paymentMethod": {
+            "key": "R",
+            "description": "Crédito",
+            "enabled": true,
+            "organization": {
+              "key": 3046
+            },
+            "askPaymentDocument": 0
+          },
+          "allowShort": true,
+          "orderClass": {
+            "key": "YA10",
+            "description": "AR-Factura de Ventas",
+            "organization": {
+              "key": 3046
+            },
+            "enabled": true,
+            "pickup": false,
+            "allowNewOrder": false,
+            "allDamaged": false
+          }
+        }
+      ],
+      "location": {
+        "organization": {
+          "key": "0144"
+        },
+        "locationType": {
+          "organization": {
+            "key": 3046
+          },
+          "key": "RUTA"
+        },
+        "key": 500848295
+      },
+      "baseLineSequenceNum": 8,
+      "plannedSequenceNum": 8,
+      "stopType": {
+        "organization": {
+          "key": 3046
+        },
+        "key": "STOP_GEN"
+      },
+      "plannedArrival": "2025-10-15T03:00:00Z",
+      "plannedDeparture": "2025-10-15T03:00:00Z"
+    }
+  ],
+  "hasPicture": false,
+  "equipmentAssignments": {
+    "principal": true,
+    "equipment": {
+      "key": "5000",
+      "organization": {
+        "key": 3046
+      }
+    }
+  }
+}
